@@ -18,24 +18,7 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [
-    {
-      "src": "/api/auth/(.*)",
-      "dest": "/api/auth.js"
-    },
-    {
-      "src": "/api/rooms/(.*)",
-      "dest": "/api/rooms.js"
-    },
-    {
-      "src": "/api/admin/(.*)",
-      "dest": "/api/admin.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/$1"
-    }
-  ],
+
   "headers": [
     {
       "source": "/(.*)",
